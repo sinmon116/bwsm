@@ -1,0 +1,1735 @@
+---------------------------------------------------------------
+[ 2018-02-20T13:49:01+08:00 ] 0.0.0.0 GET /
+[ info ] www.chenjiangtp5.com/ [运行时间：0.777854s][吞吐率：1.29req/s] [内存消耗：5,142.02kb] [文件加载：54]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\PHP\php\bwsmtp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHP\php\bwsmtp5\public/../application/index\view\index\index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.060572s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.127362s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.022680s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.033248s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.002244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.004648s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.001697s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.002730s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.001638s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.002673s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.001665s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.003625s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.019059s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.001948s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.001572s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.001658s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.001426s ]
+---------------------------------------------------------------
+[ 2018-02-20T13:50:12+08:00 ] 0.0.0.0 GET /index/user/sanf?code=099435dc24d6db7c459627d4a30747f0
+[ info ] www.chenjiangtp5.com/index/user/sanf?code=099435dc24d6db7c459627d4a30747f0 [运行时间：1.817018s][吞吐率：0.55req/s] [内存消耗：5,328.95kb] [文件加载：59]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'sanf',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=',
+)
+[ info ] [ PARAM ] array (
+  'code' => '099435dc24d6db7c459627d4a30747f0',
+)
+[ info ] [ RUN ] app\index\controller\User->sanf[ D:\PHP\php\bwsmtp5\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\PHP\php\bwsmtp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.055764s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_user` [ RunTime:0.150036s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user` WHERE  `password` = 'qqpBlzQsDUnxI' LIMIT 1 [ RunTime:0.038229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_vip` [ RunTime:0.046655s ]
+[ sql ] [ SQL ] SELECT `gqtime` FROM `bw_vip` WHERE  `uid` = 14 LIMIT 1 [ RunTime:0.025006s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_fwjl` [ RunTime:0.022932s ]
+[ sql ] [ SQL ] INSERT INTO `bw_fwjl` (`uid` , `username` , `ip` , `retime`) VALUES (14 , '陈江' , '::1' , '2018-02-20 13:50:11') [ RunTime:0.070545s ]
+---------------------------------------------------------------
+[ 2018-02-20T13:50:15+08:00 ] 0.0.0.0 GET /index/index/index.html
+[ info ] www.chenjiangtp5.com/index/index/index.html [运行时间：0.389819s][吞吐率：2.57req/s] [内存消耗：5,143.45kb] [文件加载：54]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.chenjiangtp5.com/index/user/sanf?code=099435dc24d6db7c459627d4a30747f0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\PHP\php\bwsmtp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHP\php\bwsmtp5\public/../application/index\view\index\index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037127s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.071316s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.025447s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.023357s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.001924s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.006341s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.001708s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.002559s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.008042s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.002566s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.012605s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.002201s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.001426s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.004637s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.001120s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.011638s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.001136s ]
+---------------------------------------------------------------
+[ 2018-02-20T13:50:17+08:00 ] 0.0.0.0 GET /index/user/person
+[ info ] www.chenjiangtp5.com/index/user/person [运行时间：1.464301s][吞吐率：0.68req/s] [内存消耗：5,311.94kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'person',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.chenjiangtp5.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/index/user/sanf?code=099435dc24d6db7c459627d4a30747f0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->person[ D:\PHP\php\bwsmtp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHP\php\bwsmtp5\public/../application/index\view\user\person.html [ array (
+  0 => 'data3',
+  1 => 'data2',
+  2 => 'data4',
+  3 => 'wzxx',
+  4 => 'data',
+  5 => 'data1',
+  6 => 'jl',
+  7 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.044388s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.053949s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.015942s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.002370s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.013576s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.001388s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.004140s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `isdel` = '0' [ RunTime:0.000951s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_user` [ RunTime:0.084141s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.202005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_fwjl` [ RunTime:0.374065s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_fwjl` WHERE  `uid` = 14 ORDER BY `retime`  desc LIMIT 5 [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user` WHERE  `id` = 14 [ RunTime:0.122870s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_vip` [ RunTime:0.189907s ]
+[ sql ] [ SQL ] SELECT `gqtime` FROM `bw_vip` WHERE  `uid` = 14 LIMIT 1 [ RunTime:0.052190s ]
+---------------------------------------------------------------
+[ 2018-02-20T13:50:21+08:00 ] 0.0.0.0 GET /index/user/chaqiandao
+[ info ] www.chenjiangtp5.com/index/user/chaqiandao [运行时间：0.697493s][吞吐率：1.43req/s] [内存消耗：4,464.40kb] [文件加载：51]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'chaqiandao',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'referer' => 'http://www.chenjiangtp5.com/index/user/person',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/index/user/sanf?code=099435dc24d6db7c459627d4a30747f0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->chaqiandao[ D:\PHP\php\bwsmtp5\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.160341s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_sign` [ RunTime:0.392928s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_sign` WHERE  `uid` = 14 LIMIT 1 [ RunTime:0.058639s ]
+---------------------------------------------------------------
+[ 2018-02-20T13:50:22+08:00 ] 0.0.0.0 GET /index/user/qiandao
+[ info ] www.chenjiangtp5.com/index/user/qiandao [运行时间：0.929307s][吞吐率：1.08req/s] [内存消耗：4,464.38kb] [文件加载：51]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'qiandao',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'referer' => 'http://www.chenjiangtp5.com/index/user/person',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/index/user/sanf?code=099435dc24d6db7c459627d4a30747f0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->qiandao[ D:\PHP\php\bwsmtp5\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.212652s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_sign` [ RunTime:0.622530s ]
+[ sql ] [ SQL ] SELECT `qdtime` FROM `bw_sign` WHERE  `uid` = 14 ORDER BY `qdtime`  desc LIMIT 1 [ RunTime:0.003173s ]
+---------------------------------------------------------------
+[ 2018-02-20T14:01:12+08:00 ] 0.0.0.0 GET /codepay/css/font-awesome.min.css
+[ info ] www.chenjiangtp5.com/codepay/css/font-awesome.min.css [运行时间：1.205524s][吞吐率：0.83req/s] [内存消耗：2,487.70kb] [文件加载：40]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'codepay',
+    1 => 'css',
+    2 => 'font-awesome.min.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174969358664&userID=30077&pay_no=2018022021001004100564685761&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191063241300772327491020&endTime=1519106684&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106334&tag=0&target=get&sign=dad151b34ae746faa2a5f73723753304',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/index/index/index.html',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-20T14:01:17+08:00 ] 0.0.0.0 GET /
+[ info ] www.chenjiangtp5.com/ [运行时间：0.813417s][吞吐率：1.23req/s] [内存消耗：5,144.66kb] [文件加载：54]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174969358664&userID=30077&pay_no=2018022021001004100564685761&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191063241300772327491020&endTime=1519106684&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106334&tag=0&target=get&sign=dad151b34ae746faa2a5f73723753304',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/index/index/index.html',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\PHP\php\bwsmtp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHP\php\bwsmtp5\public/../application/index\view\index\index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043292s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.200527s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.016615s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.035541s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.001901s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.034498s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.023569s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.024250s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.020771s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.019841s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.030731s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.033441s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.039524s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.001587s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.014578s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.001616s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.001486s ]
+---------------------------------------------------------------
+[ 2018-02-20T14:01:58+08:00 ] 0.0.0.0 GET /
+[ info ] www.chenjiangtp5.com/ [运行时间：0.481880s][吞吐率：2.08req/s] [内存消耗：5,145.35kb] [文件加载：54]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174969358664&userID=30077&pay_no=2018022021001004100564685761&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191063241300772327491020&endTime=1519106684&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106334&tag=0&target=get&sign=dad151b34ae746faa2a5f73723753304',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174969358664&userID=30077&pay_no=2018022021001004100564685761&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191063241300772327491020&endTime=1519106684&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106334&tag=0&target=get&sign=dad151b34ae746faa2a5f73723753304',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\PHP\php\bwsmtp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHP\php\bwsmtp5\public/../application/index\view\index\index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047580s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.084253s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.018889s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.010136s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000878s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.014513s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.014668s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.040641s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.000958s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.005410s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.031583s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.001786s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.029594s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.013701s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.002347s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.000556s ]
+---------------------------------------------------------------
+[ 2018-02-20T14:02:00+08:00 ] 0.0.0.0 GET /index/user/person
+[ info ] www.chenjiangtp5.com/index/user/person [运行时间：0.651723s][吞吐率：1.53req/s] [内存消耗：5,313.23kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'person',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.chenjiangtp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174969358664&userID=30077&pay_no=2018022021001004100564685761&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191063241300772327491020&endTime=1519106684&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106334&tag=0&target=get&sign=dad151b34ae746faa2a5f73723753304',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->person[ D:\PHP\php\bwsmtp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHP\php\bwsmtp5\public/../application/index\view\user\person.html [ array (
+  0 => 'data3',
+  1 => 'data2',
+  2 => 'data4',
+  3 => 'wzxx',
+  4 => 'data',
+  5 => 'data1',
+  6 => 'jl',
+  7 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.137615s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.071711s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.030870s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.011474s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.019739s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.013760s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.063971s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.008628s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `isdel` = '0' [ RunTime:0.001072s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_user` [ RunTime:0.042739s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.012119s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_fwjl` [ RunTime:0.034391s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_fwjl` WHERE  `uid` = 14 ORDER BY `retime`  desc LIMIT 5 [ RunTime:0.006986s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user` WHERE  `id` = 14 [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_vip` [ RunTime:0.013035s ]
+[ sql ] [ SQL ] SELECT `gqtime` FROM `bw_vip` WHERE  `uid` = 14 LIMIT 1 [ RunTime:0.021310s ]
+---------------------------------------------------------------
+[ 2018-02-20T14:02:00+08:00 ] 0.0.0.0 GET /index/user/chaqiandao
+[ info ] www.chenjiangtp5.com/index/user/chaqiandao [运行时间：0.297103s][吞吐率：3.37req/s] [内存消耗：4,465.32kb] [文件加载：51]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'chaqiandao',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'referer' => 'http://www.chenjiangtp5.com/index/user/person',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174969358664&userID=30077&pay_no=2018022021001004100564685761&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191063241300772327491020&endTime=1519106684&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106334&tag=0&target=get&sign=dad151b34ae746faa2a5f73723753304',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->chaqiandao[ D:\PHP\php\bwsmtp5\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020484s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_sign` [ RunTime:0.179064s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_sign` WHERE  `uid` = 14 LIMIT 1 [ RunTime:0.001504s ]
+---------------------------------------------------------------
+[ 2018-02-20T14:02:01+08:00 ] 0.0.0.0 GET /index/user/qiandao
+[ info ] www.chenjiangtp5.com/index/user/qiandao [运行时间：0.239509s][吞吐率：4.18req/s] [内存消耗：4,465.06kb] [文件加载：51]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'qiandao',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'referer' => 'http://www.chenjiangtp5.com/index/user/person',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174969358664&userID=30077&pay_no=2018022021001004100564685761&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191063241300772327491020&endTime=1519106684&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106334&tag=0&target=get&sign=dad151b34ae746faa2a5f73723753304',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->qiandao[ D:\PHP\php\bwsmtp5\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031447s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_sign` [ RunTime:0.101505s ]
+[ sql ] [ SQL ] SELECT `qdtime` FROM `bw_sign` WHERE  `uid` = 14 ORDER BY `qdtime`  desc LIMIT 1 [ RunTime:0.034032s ]
+---------------------------------------------------------------
+[ 2018-02-20T14:02:49+08:00 ] 0.0.0.0 GET /codepay/css/font-awesome.min.css
+[ info ] www.chenjiangtp5.com/codepay/css/font-awesome.min.css [运行时间：0.089055s][吞吐率：11.23req/s] [内存消耗：2,487.57kb] [文件加载：40]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'codepay',
+    1 => 'css',
+    2 => 'font-awesome.min.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-20T14:02:53+08:00 ] 0.0.0.0 GET /
+[ info ] www.chenjiangtp5.com/ [运行时间：0.299993s][吞吐率：3.33req/s] [内存消耗：5,144.50kb] [文件加载：54]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\PHP\php\bwsmtp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHP\php\bwsmtp5\public/../application/index\view\index\index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019865s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.079513s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.021889s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.001821s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.012140s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.004207s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.001669s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.010845s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.001277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.003871s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.001626s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.012864s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.002029s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.001119s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.001192s ]
+---------------------------------------------------------------
+[ 2018-02-20T14:02:55+08:00 ] 0.0.0.0 GET /codepay/css/font-awesome.min.css
+[ info ] www.chenjiangtp5.com/codepay/css/font-awesome.min.css [运行时间：0.080617s][吞吐率：12.40req/s] [内存消耗：2,488.84kb] [文件加载：40]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'codepay',
+    1 => 'css',
+    2 => 'font-awesome.min.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-20T14:02:58+08:00 ] 0.0.0.0 GET /
+[ info ] www.chenjiangtp5.com/ [运行时间：0.439293s][吞吐率：2.28req/s] [内存消耗：5,145.33kb] [文件加载：54]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\PHP\php\bwsmtp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHP\php\bwsmtp5\public/../application/index\view\index\index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002278s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.110655s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.014163s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.020793s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.006657s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.021273s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.017444s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.018478s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.008768s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.013161s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.043328s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.017900s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.000798s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.007315s ]
+---------------------------------------------------------------
+[ 2018-02-20T14:02:59+08:00 ] 0.0.0.0 GET /codepay/css/font-awesome.min.css
+[ info ] www.chenjiangtp5.com/codepay/css/font-awesome.min.css [运行时间：0.067470s][吞吐率：14.82req/s] [内存消耗：2,488.84kb] [文件加载：40]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'codepay',
+    1 => 'css',
+    2 => 'font-awesome.min.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-20T14:03:02+08:00 ] 0.0.0.0 GET /
+[ info ] www.chenjiangtp5.com/ [运行时间：0.258363s][吞吐率：3.87req/s] [内存消耗：5,145.33kb] [文件加载：54]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\PHP\php\bwsmtp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHP\php\bwsmtp5\public/../application/index\view\index\index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016719s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.036494s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.015080s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.001641s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.002199s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.002876s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.001702s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.007131s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.001268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.002898s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.004058s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.014111s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.001531s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.008434s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.001539s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.001539s ]
+---------------------------------------------------------------
+[ 2018-02-20T14:03:03+08:00 ] 0.0.0.0 GET /codepay/css/font-awesome.min.css
+[ info ] www.chenjiangtp5.com/codepay/css/font-awesome.min.css [运行时间：0.067068s][吞吐率：14.91req/s] [内存消耗：2,488.84kb] [文件加载：40]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'codepay',
+    1 => 'css',
+    2 => 'font-awesome.min.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-20T14:03:07+08:00 ] 0.0.0.0 GET /
+[ info ] www.chenjiangtp5.com/ [运行时间：0.354326s][吞吐率：2.82req/s] [内存消耗：5,145.33kb] [文件加载：54]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\PHP\php\bwsmtp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHP\php\bwsmtp5\public/../application/index\view\index\index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019651s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.079135s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.001444s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.001883s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.001568s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.010581s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.015802s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.002532s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.013159s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.002765s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.001303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.012316s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.002421s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.015760s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.001516s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.001840s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.002856s ]
+---------------------------------------------------------------
+[ 2018-02-20T14:03:08+08:00 ] 0.0.0.0 GET /codepay/css/font-awesome.min.css
+[ info ] www.chenjiangtp5.com/codepay/css/font-awesome.min.css [运行时间：0.069361s][吞吐率：14.42req/s] [内存消耗：2,488.84kb] [文件加载：40]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'codepay',
+    1 => 'css',
+    2 => 'font-awesome.min.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-20T14:03:11+08:00 ] 0.0.0.0 GET /
+[ info ] www.chenjiangtp5.com/ [运行时间：0.470112s][吞吐率：2.13req/s] [内存消耗：5,145.33kb] [文件加载：54]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\PHP\php\bwsmtp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHP\php\bwsmtp5\public/../application/index\view\index\index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.063436s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.045341s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.033701s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.001637s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.001900s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.031951s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.003444s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.055338s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.001160s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.013760s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.009707s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.002079s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.025203s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.001129s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.007673s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.001063s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.002181s ]
+---------------------------------------------------------------
+[ 2018-02-20T14:03:12+08:00 ] 0.0.0.0 GET /codepay/css/font-awesome.min.css
+[ info ] www.chenjiangtp5.com/codepay/css/font-awesome.min.css [运行时间：0.275277s][吞吐率：3.63req/s] [内存消耗：2,488.84kb] [文件加载：40]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'codepay',
+    1 => 'css',
+    2 => 'font-awesome.min.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-20T14:03:16+08:00 ] 0.0.0.0 GET /
+[ info ] www.chenjiangtp5.com/ [运行时间：0.466014s][吞吐率：2.15req/s] [内存消耗：5,145.33kb] [文件加载：54]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\PHP\php\bwsmtp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHP\php\bwsmtp5\public/../application/index\view\index\index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025043s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.060905s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.008505s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.015443s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.001565s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.020226s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.022584s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.033242s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.030043s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.003401s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.001850s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.055399s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.016738s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.008574s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.001575s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.001551s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.005912s ]
+---------------------------------------------------------------
+[ 2018-02-20T14:03:16+08:00 ] 0.0.0.0 GET /codepay/css/font-awesome.min.css
+[ info ] www.chenjiangtp5.com/codepay/css/font-awesome.min.css [运行时间：0.070493s][吞吐率：14.19req/s] [内存消耗：2,488.84kb] [文件加载：40]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'codepay',
+    1 => 'css',
+    2 => 'font-awesome.min.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-20T14:03:20+08:00 ] 0.0.0.0 GET /
+[ info ] www.chenjiangtp5.com/ [运行时间：1.003196s][吞吐率：1.00req/s] [内存消耗：5,145.33kb] [文件加载：54]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\PHP\php\bwsmtp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHP\php\bwsmtp5\public/../application/index\view\index\index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.096722s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.392470s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.062110s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.123754s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.046241s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.000970s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.025992s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.024085s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.030404s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.001243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.003858s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.021207s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.001114s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.021464s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.001124s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.001066s ]
+---------------------------------------------------------------
+[ 2018-02-20T14:03:21+08:00 ] 0.0.0.0 GET /codepay/css/font-awesome.min.css
+[ info ] www.chenjiangtp5.com/codepay/css/font-awesome.min.css [运行时间：0.079092s][吞吐率：12.64req/s] [内存消耗：2,488.84kb] [文件加载：40]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'codepay',
+    1 => 'css',
+    2 => 'font-awesome.min.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-20T14:03:24+08:00 ] 0.0.0.0 GET /
+[ info ] www.chenjiangtp5.com/ [运行时间：0.500907s][吞吐率：2.00req/s] [内存消耗：5,145.33kb] [文件加载：54]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\PHP\php\bwsmtp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHP\php\bwsmtp5\public/../application/index\view\index\index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011016s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.110682s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.012910s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.008202s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.001473s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.057321s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.021677s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.002623s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.023118s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.010714s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.001069s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.001737s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.024963s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.015758s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.000871s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.000805s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.000823s ]
+---------------------------------------------------------------
+[ 2018-02-20T14:08:59+08:00 ] 0.0.0.0 GET /codepay/css/font-awesome.min.css
+[ info ] www.chenjiangtp5.com/codepay/css/font-awesome.min.css [运行时间：0.073078s][吞吐率：13.68req/s] [内存消耗：2,488.84kb] [文件加载：40]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'codepay',
+    1 => 'css',
+    2 => 'font-awesome.min.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-20T14:09:02+08:00 ] 0.0.0.0 GET /
+[ info ] www.chenjiangtp5.com/ [运行时间：0.306040s][吞吐率：3.27req/s] [内存消耗：5,145.33kb] [文件加载：54]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\PHP\php\bwsmtp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHP\php\bwsmtp5\public/../application/index\view\index\index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.032710s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.064607s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.011708s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.001897s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.001922s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.003294s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.001685s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.002874s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.010419s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.002895s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.001256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.003914s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.011871s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.002024s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.007401s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.001544s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.001440s ]
+---------------------------------------------------------------
+[ 2018-02-20T14:11:19+08:00 ] 0.0.0.0 GET /
+[ info ] www.chenjiangtp5.com/ [运行时间：0.333251s][吞吐率：3.00req/s] [内存消耗：5,145.35kb] [文件加载：54]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\PHP\php\bwsmtp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHP\php\bwsmtp5\public/../application/index\view\index\index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029862s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.100176s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.001934s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.000884s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.001092s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.017896s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.008651s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.000707s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.001331s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.012144s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.012290s ]
+---------------------------------------------------------------
+[ 2018-02-20T14:11:22+08:00 ] 0.0.0.0 GET /index/user/person
+[ info ] www.chenjiangtp5.com/index/user/person [运行时间：0.311994s][吞吐率：3.21req/s] [内存消耗：5,313.23kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'person',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.chenjiangtp5.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->person[ D:\PHP\php\bwsmtp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHP\php\bwsmtp5\public/../application/index\view\user\person.html [ array (
+  0 => 'data3',
+  1 => 'data2',
+  2 => 'data4',
+  3 => 'wzxx',
+  4 => 'data',
+  5 => 'data1',
+  6 => 'jl',
+  7 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020296s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.089919s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.014737s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.006662s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.001784s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.001712s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `isdel` = '0' [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_user` [ RunTime:0.004916s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_fwjl` [ RunTime:0.001698s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_fwjl` WHERE  `uid` = 14 ORDER BY `retime`  desc LIMIT 5 [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user` WHERE  `id` = 14 [ RunTime:0.001225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_vip` [ RunTime:0.001555s ]
+[ sql ] [ SQL ] SELECT `gqtime` FROM `bw_vip` WHERE  `uid` = 14 LIMIT 1 [ RunTime:0.000658s ]
+---------------------------------------------------------------
+[ 2018-02-20T14:11:23+08:00 ] 0.0.0.0 GET /index/user/chaqiandao
+[ info ] www.chenjiangtp5.com/index/user/chaqiandao [运行时间：0.199925s][吞吐率：5.00req/s] [内存消耗：4,465.32kb] [文件加载：51]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'chaqiandao',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'referer' => 'http://www.chenjiangtp5.com/index/user/person',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->chaqiandao[ D:\PHP\php\bwsmtp5\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021499s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_sign` [ RunTime:0.068790s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_sign` WHERE  `uid` = 14 LIMIT 1 [ RunTime:0.024332s ]
+---------------------------------------------------------------
+[ 2018-02-20T14:11:23+08:00 ] 0.0.0.0 GET /index/user/qiandao
+[ info ] www.chenjiangtp5.com/index/user/qiandao [运行时间：0.137065s][吞吐率：7.30req/s] [内存消耗：4,465.06kb] [文件加载：51]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'qiandao',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'referer' => 'http://www.chenjiangtp5.com/index/user/person',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/codepay/notify.php?id=174968124253&userID=30077&pay_no=2018022021001004100564788137&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191064971300779250385021&endTime=1519106887&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519106532&tag=0&target=get&sign=2a8de32cc5db2cc29896e43445e49db7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->qiandao[ D:\PHP\php\bwsmtp5\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021125s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_sign` [ RunTime:0.033761s ]
+[ sql ] [ SQL ] SELECT `qdtime` FROM `bw_sign` WHERE  `uid` = 14 ORDER BY `qdtime`  desc LIMIT 1 [ RunTime:0.000817s ]
+---------------------------------------------------------------
+[ 2018-02-20T14:11:49+08:00 ] 0.0.0.0 GET /codepay/css/font-awesome.min.css
+[ info ] www.chenjiangtp5.com/codepay/css/font-awesome.min.css [运行时间：0.069095s][吞吐率：14.47req/s] [内存消耗：2,487.57kb] [文件加载：40]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'codepay',
+    1 => 'css',
+    2 => 'font-awesome.min.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174961163385&userID=30077&pay_no=2018022021001004100564004911&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191070581300778039660014&endTime=1519107418&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519107073&tag=0&target=get&sign=cf7372d1bf7556b48b6c7d56e554bb88',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-20T14:11:52+08:00 ] 0.0.0.0 GET /
+[ info ] www.chenjiangtp5.com/ [运行时间：0.216620s][吞吐率：4.62req/s] [内存消耗：5,144.50kb] [文件加载：54]
+[ info ] [ LANG ] D:\PHP\php\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.chenjiangtp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.chenjiangtp5.com/codepay/notify.php?id=174961163385&userID=30077&pay_no=2018022021001004100564004911&pay_id=%E9%99%88%E6%B1%9F&price=0.10&status=0&trade_no=115191070581300778039660014&endTime=1519107418&trueID=30077&mode=0&ok=1&type=1&money=0.10&pay_time=1519107073&tag=0&target=get&sign=cf7372d1bf7556b48b6c7d56e554bb88',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5rr35rq5l290ppk8nu52176el5; hzy_login_back=http://www.chenjiangtp5.com/',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\PHP\php\bwsmtp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHP\php\bwsmtp5\public/../application/index\view\index\index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012354s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.050347s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000772s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.001065s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.011947s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.000979s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.001271s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.001029s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.005358s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.000756s ]

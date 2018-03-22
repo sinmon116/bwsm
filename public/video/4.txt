@@ -1,0 +1,1 @@
+{ "text":"哈哈","color":"#bc4f64","size":"1","position":"0","time":32},

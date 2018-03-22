@@ -1,0 +1,1 @@
+{ "text":"123","color":"#d459f9","size":"1","position":"0","time":22},{ "text":"zxc","color":"#8699ff","size":"1","position":"0","time":36},{ "text":"ghj","color":"#54e8d2","size":"1","position":"0","time":54},

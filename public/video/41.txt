@@ -1,0 +1,1 @@
+{ "text":"哈喽","color":"#b4300c","size":"1","position":"0","time":3},

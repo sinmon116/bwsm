@@ -1,0 +1,1331 @@
+---------------------------------------------------------------
+[ 2018-02-15T16:52:00+08:00 ] 0.0.0.0 GET /admin/echarts/echarts.min.js
+[ info ] bwsm.msinmon.com/admin/echarts/echarts.min.js [运行时间：0.187011s][吞吐率：5.35req/s] [内存消耗：1,850.36kb] [文件加载：47]
+[ info ] [ LANG ] F:\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'echarts',
+    2 => 'echarts.min.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'bwsm.msinmon.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://bwsm.msinmon.com/admin/echarts/echarsb',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aglpq9a1mjcbgo5rs3jbm2glh5; jiathis_rdc=%7B%22http%3A//bwsm.msinmon.com/index/video/single/vid/24%22%3A%220%7C1518683774138%22%7D; hzy_login_back=; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1518580910,1518661182,1518683507; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1518684586',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-15T16:52:02+08:00 ] 0.0.0.0 POST /admin/user/baseer
+[ info ] bwsm.msinmon.com/admin/user/baseer [运行时间：0.220012s][吞吐率：4.55req/s] [内存消耗：2,795.06kb] [文件加载：52]
+[ info ] [ LANG ] F:\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'baseer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'bwsm.msinmon.com',
+  'connection' => 'keep-alive',
+  'content-length' => '31',
+  'accept' => '*/*',
+  'origin' => 'http://bwsm.msinmon.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://bwsm.msinmon.com/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aglpq9a1mjcbgo5rs3jbm2glh5; jiathis_rdc=%7B%22http%3A//bwsm.msinmon.com/index/video/single/vid/24%22%3A%220%7C1518683774138%22%7D; hzy_login_back=; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1518580910,1518661182,1518683507; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1518684586',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin/echarts/echars',
+)
+[ info ] [ RUN ] app\admin\controller\User->baseer[ F:\bwsmtp5\application\admin\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_user_role` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_role_permission` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_permission` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-02-15T16:52:04+08:00 ] 0.0.0.0 POST /admin/user/baseer
+[ info ] bwsm.msinmon.com/admin/user/baseer [运行时间：0.356020s][吞吐率：2.81req/s] [内存消耗：2,795.07kb] [文件加载：52]
+[ info ] [ LANG ] F:\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'baseer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'bwsm.msinmon.com',
+  'connection' => 'keep-alive',
+  'content-length' => '32',
+  'accept' => '*/*',
+  'origin' => 'http://bwsm.msinmon.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://bwsm.msinmon.com/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aglpq9a1mjcbgo5rs3jbm2glh5; jiathis_rdc=%7B%22http%3A//bwsm.msinmon.com/index/video/single/vid/24%22%3A%220%7C1518683774138%22%7D; hzy_login_back=; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1518580910,1518661182,1518683507; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1518684586',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin/echarts/echarsb',
+)
+[ info ] [ RUN ] app\admin\controller\User->baseer[ F:\bwsmtp5\application\admin\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008001s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_user_role` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_role_permission` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_permission` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-02-15T16:52:05+08:00 ] 0.0.0.0 POST /admin/user/baseer
+[ info ] bwsm.msinmon.com/admin/user/baseer [运行时间：0.290017s][吞吐率：3.45req/s] [内存消耗：2,795.06kb] [文件加载：52]
+[ info ] [ LANG ] F:\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'baseer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'bwsm.msinmon.com',
+  'connection' => 'keep-alive',
+  'content-length' => '31',
+  'accept' => '*/*',
+  'origin' => 'http://bwsm.msinmon.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://bwsm.msinmon.com/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aglpq9a1mjcbgo5rs3jbm2glh5; jiathis_rdc=%7B%22http%3A//bwsm.msinmon.com/index/video/single/vid/24%22%3A%220%7C1518683774138%22%7D; hzy_login_back=; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1518580910,1518661182,1518683507; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1518684586',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin/echarts/echars',
+)
+[ info ] [ RUN ] app\admin\controller\User->baseer[ F:\bwsmtp5\application\admin\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_user_role` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_role_permission` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_permission` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-02-15T16:52:11+08:00 ] 0.0.0.0 POST /admin/user/baseer
+[ info ] bwsm.msinmon.com/admin/user/baseer [运行时间：0.315018s][吞吐率：3.17req/s] [内存消耗：2,795.07kb] [文件加载：52]
+[ info ] [ LANG ] F:\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'baseer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'bwsm.msinmon.com',
+  'connection' => 'keep-alive',
+  'content-length' => '32',
+  'accept' => '*/*',
+  'origin' => 'http://bwsm.msinmon.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://bwsm.msinmon.com/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aglpq9a1mjcbgo5rs3jbm2glh5; jiathis_rdc=%7B%22http%3A//bwsm.msinmon.com/index/video/single/vid/24%22%3A%220%7C1518683774138%22%7D; hzy_login_back=; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1518580910,1518661182,1518683507; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1518684586',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin/echarts/echarsb',
+)
+[ info ] [ RUN ] app\admin\controller\User->baseer[ F:\bwsmtp5\application\admin\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_user_role` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_role_permission` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_permission` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.002001s ]
+---------------------------------------------------------------
+[ 2018-02-15T16:52:12+08:00 ] 0.0.0.0 POST /admin/user/baseer
+[ info ] bwsm.msinmon.com/admin/user/baseer [运行时间：0.332019s][吞吐率：3.01req/s] [内存消耗：2,795.06kb] [文件加载：52]
+[ info ] [ LANG ] F:\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'baseer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'bwsm.msinmon.com',
+  'connection' => 'keep-alive',
+  'content-length' => '31',
+  'accept' => '*/*',
+  'origin' => 'http://bwsm.msinmon.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://bwsm.msinmon.com/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aglpq9a1mjcbgo5rs3jbm2glh5; jiathis_rdc=%7B%22http%3A//bwsm.msinmon.com/index/video/single/vid/24%22%3A%220%7C1518683774138%22%7D; hzy_login_back=; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1518580910,1518661182,1518683507; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1518684586',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin/echarts/echars',
+)
+[ info ] [ RUN ] app\admin\controller\User->baseer[ F:\bwsmtp5\application\admin\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017001s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_user_role` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_role_permission` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_permission` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-02-15T16:52:13+08:00 ] 0.0.0.0 POST /admin/user/baseer
+[ info ] bwsm.msinmon.com/admin/user/baseer [运行时间：0.304018s][吞吐率：3.29req/s] [内存消耗：2,795.07kb] [文件加载：52]
+[ info ] [ LANG ] F:\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'baseer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'bwsm.msinmon.com',
+  'connection' => 'keep-alive',
+  'content-length' => '32',
+  'accept' => '*/*',
+  'origin' => 'http://bwsm.msinmon.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://bwsm.msinmon.com/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aglpq9a1mjcbgo5rs3jbm2glh5; jiathis_rdc=%7B%22http%3A//bwsm.msinmon.com/index/video/single/vid/24%22%3A%220%7C1518683774138%22%7D; hzy_login_back=; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1518580910,1518661182,1518683507; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1518684586',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin/echarts/echarsb',
+)
+[ info ] [ RUN ] app\admin\controller\User->baseer[ F:\bwsmtp5\application\admin\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016001s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_user_role` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_role_permission` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_permission` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-02-15T16:52:14+08:00 ] 0.0.0.0 POST /admin/user/baseer
+[ info ] bwsm.msinmon.com/admin/user/baseer [运行时间：0.316018s][吞吐率：3.16req/s] [内存消耗：2,795.06kb] [文件加载：52]
+[ info ] [ LANG ] F:\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'baseer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'bwsm.msinmon.com',
+  'connection' => 'keep-alive',
+  'content-length' => '31',
+  'accept' => '*/*',
+  'origin' => 'http://bwsm.msinmon.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://bwsm.msinmon.com/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aglpq9a1mjcbgo5rs3jbm2glh5; jiathis_rdc=%7B%22http%3A//bwsm.msinmon.com/index/video/single/vid/24%22%3A%220%7C1518683774138%22%7D; hzy_login_back=; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1518580910,1518661182,1518683507; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1518684586',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin/echarts/echars',
+)
+[ info ] [ RUN ] app\admin\controller\User->baseer[ F:\bwsmtp5\application\admin\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_user_role` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_role_permission` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_permission` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-02-15T16:52:15+08:00 ] 0.0.0.0 POST /admin/user/baseer
+[ info ] bwsm.msinmon.com/admin/user/baseer [运行时间：0.303017s][吞吐率：3.30req/s] [内存消耗：2,795.07kb] [文件加载：52]
+[ info ] [ LANG ] F:\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'baseer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'bwsm.msinmon.com',
+  'connection' => 'keep-alive',
+  'content-length' => '32',
+  'accept' => '*/*',
+  'origin' => 'http://bwsm.msinmon.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://bwsm.msinmon.com/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aglpq9a1mjcbgo5rs3jbm2glh5; jiathis_rdc=%7B%22http%3A//bwsm.msinmon.com/index/video/single/vid/24%22%3A%220%7C1518683774138%22%7D; hzy_login_back=; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1518580910,1518661182,1518683507; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1518684586',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin/echarts/echarsb',
+)
+[ info ] [ RUN ] app\admin\controller\User->baseer[ F:\bwsmtp5\application\admin\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015000s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_user_role` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_role_permission` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_permission` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-02-15T16:52:16+08:00 ] 0.0.0.0 POST /admin/user/baseer
+[ info ] bwsm.msinmon.com/admin/user/baseer [运行时间：0.347019s][吞吐率：2.88req/s] [内存消耗：2,795.06kb] [文件加载：52]
+[ info ] [ LANG ] F:\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'baseer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'bwsm.msinmon.com',
+  'connection' => 'keep-alive',
+  'content-length' => '31',
+  'accept' => '*/*',
+  'origin' => 'http://bwsm.msinmon.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://bwsm.msinmon.com/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aglpq9a1mjcbgo5rs3jbm2glh5; jiathis_rdc=%7B%22http%3A//bwsm.msinmon.com/index/video/single/vid/24%22%3A%220%7C1518683774138%22%7D; hzy_login_back=; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1518580910,1518661182,1518683507; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1518684586',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin/echarts/echars',
+)
+[ info ] [ RUN ] app\admin\controller\User->baseer[ F:\bwsmtp5\application\admin\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025002s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_user_role` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_role_permission` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_permission` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-02-15T16:52:18+08:00 ] 0.0.0.0 POST /admin/user/baseer
+[ info ] bwsm.msinmon.com/admin/user/baseer [运行时间：0.356020s][吞吐率：2.81req/s] [内存消耗：2,795.07kb] [文件加载：52]
+[ info ] [ LANG ] F:\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'baseer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'bwsm.msinmon.com',
+  'connection' => 'keep-alive',
+  'content-length' => '32',
+  'accept' => '*/*',
+  'origin' => 'http://bwsm.msinmon.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://bwsm.msinmon.com/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aglpq9a1mjcbgo5rs3jbm2glh5; jiathis_rdc=%7B%22http%3A//bwsm.msinmon.com/index/video/single/vid/24%22%3A%220%7C1518683774138%22%7D; hzy_login_back=; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1518580910,1518661182,1518683507; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1518684586',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin/echarts/echarsb',
+)
+[ info ] [ RUN ] app\admin\controller\User->baseer[ F:\bwsmtp5\application\admin\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.039002s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_user_role` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_role_permission` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_permission` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-02-15T16:52:19+08:00 ] 0.0.0.0 POST /admin/user/baseer
+[ info ] bwsm.msinmon.com/admin/user/baseer [运行时间：0.295017s][吞吐率：3.39req/s] [内存消耗：2,795.06kb] [文件加载：52]
+[ info ] [ LANG ] F:\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'baseer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'bwsm.msinmon.com',
+  'connection' => 'keep-alive',
+  'content-length' => '31',
+  'accept' => '*/*',
+  'origin' => 'http://bwsm.msinmon.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://bwsm.msinmon.com/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aglpq9a1mjcbgo5rs3jbm2glh5; jiathis_rdc=%7B%22http%3A//bwsm.msinmon.com/index/video/single/vid/24%22%3A%220%7C1518683774138%22%7D; hzy_login_back=; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1518580910,1518661182,1518683507; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1518684586',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin/echarts/echars',
+)
+[ info ] [ RUN ] app\admin\controller\User->baseer[ F:\bwsmtp5\application\admin\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007000s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_user_role` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_role_permission` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_permission` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-02-15T16:52:30+08:00 ] 0.0.0.0 POST /admin/user/baseer
+[ info ] bwsm.msinmon.com/admin/user/baseer [运行时间：0.313018s][吞吐率：3.19req/s] [内存消耗：2,795.07kb] [文件加载：52]
+[ info ] [ LANG ] F:\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'baseer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'bwsm.msinmon.com',
+  'connection' => 'keep-alive',
+  'content-length' => '32',
+  'accept' => '*/*',
+  'origin' => 'http://bwsm.msinmon.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://bwsm.msinmon.com/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aglpq9a1mjcbgo5rs3jbm2glh5; jiathis_rdc=%7B%22http%3A//bwsm.msinmon.com/index/video/single/vid/24%22%3A%220%7C1518683774138%22%7D; hzy_login_back=; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1518580910,1518661182,1518683507; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1518684586',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin/echarts/echarsb',
+)
+[ info ] [ RUN ] app\admin\controller\User->baseer[ F:\bwsmtp5\application\admin\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030002s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_user_role` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_role_permission` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_permission` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_user_role` WHERE  `user_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT DISTINCT  `role_id`,`permission_id` FROM `bw_role_permission` WHERE  `role_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 2 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 3 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 7 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 9 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 11 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 13 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 14 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 15 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 17 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 18 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 19 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 20 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 21 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 22 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 23 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 25 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 26 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 27 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 28 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_permission` WHERE  `id` = 29 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-02-15T19:08:08+08:00 ] 0.0.0.0 GET /
+[ info ] bwsm.msinmon.com/ [运行时间：0.290017s][吞吐率：3.45req/s] [内存消耗：3,114.41kb] [文件加载：54]
+[ info ] [ LANG ] F:\bwsmtp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'bwsm.msinmon.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=aglpq9a1mjcbgo5rs3jbm2glh5; jiathis_rdc=%7B%22http%3A//bwsm.msinmon.com/index/video/single/vid/24%22%3A%220%7C1518683774138%22%7D; hzy_login_back=; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1518580910,1518661182,1518683507; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1518684586',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\bwsmtp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\bwsmtp5\public/../application/index\view\index\index.html [ array (
+  0 => 'data1',
+  1 => 'data2',
+  2 => 'data3',
+  3 => 'data',
+  4 => 'wzxx',
+  5 => 'banvideo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.068004s ] mysql:host=localhost;dbname=bw;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_category` [ RunTime:0.024002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_category` WHERE  `pid` = 0  AND `isdel` = '0' ORDER BY `ordeby`  desc LIMIT 5,6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_banner` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_banner` WHERE  `isdel` = 0 ORDER BY `orderby`  desc [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_link` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_link` ORDER BY `order`  asc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_website` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_website` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bw_video` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `bw_video` WHERE  `isdel` = '0'  AND `vplay` > 3 [ RunTime:0.001000s ]

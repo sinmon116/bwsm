@@ -1,0 +1,1 @@
+{ "text":"1","color":"#9dda1a","size":"1","position":"0","time":106},{ "text":"1","color":"#a20793","size":"1","position":"0","time":17},{ "text":"你好","color":"#633c71","size":"1","position":"0","time":24},

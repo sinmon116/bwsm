@@ -1,0 +1,1 @@
+{ "text":"鹅鹅鹅","color":"#eb0a95","size":"1","position":"0","time":42},{ "text":"鹅鹅鹅饿3 ","color":"#f996aa","size":"1","position":"0","time":105},
